@@ -27,11 +27,11 @@ __plugin_meta__ = PluginMetadata(
 config = get_plugin_config(Config)
 # 获取当前脚本的路径对象
 script_path = Path(__file__).resolve()
-
 # 获取脚本所在的目录
 script_dir = script_path.parent
 
 def gotohtml(tag):
+    """生成HTML格式的聊天记录页面"""
     # Connect to the database
     conn = sqlite3.connect('submissions/ONBWall.db')
     cursor = conn.cursor()

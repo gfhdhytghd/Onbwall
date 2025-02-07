@@ -1,3 +1,6 @@
 venv/
 Onbwall/submissions/
 Onbwall/cache/
+Onbwall/onbwall/plugins/Qzone-sender/cookies-*
+OnbWall.session.sql
+.vscode/settings.json
